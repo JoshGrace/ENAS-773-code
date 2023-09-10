@@ -1,0 +1,12 @@
+name: robofun_env
+channels: 
+  - defaults 
+dependencies: 
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - jax
+    - jaxlie
+    - meshcat
+  - jupyterlab
